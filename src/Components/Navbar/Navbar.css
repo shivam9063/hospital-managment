@@ -1,0 +1,277 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #9df4f4; /* Replace with your desired color */
+  
+  
+}
+
+.Navbar{
+  width: 100%;
+  height:45px ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(125, 111, 111);
+  padding: 7px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+span{
+  color: white;
+  font-weight: 800;
+}
+button{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(134, 217, 218);
+  color:rgb(13, 11, 11);
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 25px;
+}
+button:hover{
+  background-color: rgb(247, 48, 204);
+  color: white;
+  box-shadow: 0 4px 10px rgba(49, 194, 196, 1);
+}
+
+.heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  animation: fadeSlide 1.5s ease-out;
+  
+}
+
+.heading h1 {
+  font-size: 42px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000; 
+  margin-bottom: 10px;
+  opacity: 0;   
+  animation: fadeSlide 1.2s ease-out forwards;
+}
+
+.heading p {
+  color: #333333; 
+  text-transform: uppercase; 
+  font-weight: 400;
+  opacity: 0; 
+  animation: fadeSlide 1.5s ease-out forwards;
+  animation-delay: 0.3s; 
+}
+
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Box {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+
+}
+
+.Boxa {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.Boxb {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.Boxc {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+}
+
+.Boxd {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  
+}
+
+.Boxe {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  
+}
+.BoxA{
+  display: flex;
+  margin-left: 250px;
+  
+}
+.BoxB{
+  position: absolute;
+  top: 330px;
+  margin-left: 43px;
+}
+
+.Boxf {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  
+}
+.Boxg {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  
+}
+
+.Boxh {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  
+}
+.BoxC{
+  position: absolute;
+  top: 350px;
+  margin-left: 690px;
+}
+
+.Boxi {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  
+}
+
+.Boxj {
+  height: 210px;
+  width: 210px;
+  background-color: aliceblue;
+  border: 4px solid rgb(56, 56, 61);
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px;
+  
+}
+
+.BoxD{
+  position: absolute;
+  top: 350px;
+  display: flex;
+  margin-left: 240px;
+  margin-top: 580px;
+}
+
+.ButtonBox{
+  display: grid;
+  top: 30px;
+  margin-left: 900px;
+}
+
+.button-group {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 30px;
+  margin-left: 1100px;
+  position: absolute;
+  top: 220px;
+}
+
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; 
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: 250px; 
+  height: 45px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-button .icon {
+  margin-right: 10px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.custom-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
