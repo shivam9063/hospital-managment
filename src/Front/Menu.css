@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  padding:0 ;
+  font-family: Arial, sans-serif;
+}
+.Menu-bars {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 10px 10px 10px rgba(21, 20, 20, 0.3);
+}
+
+.ComLogo h2 {
+  font-size: 1.5rem;
+  color: white;
+
+  margin: 0;
+}
+
+.ComLogo h2 span {
+  color: #ff9900;
+}
+
+.menu-link ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link ul li {
+  margin: 0 25px;
+  position: relative; /* Necessary for dropdown positioning */
+}
+
+.menu-link ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.menu-link ul li a:hover {
+  color: #ff9900;
+}
+
+.Login-US button {
+  padding: 7px 30px;
+  background-color: #ff9900;
+  font-size: 22px;
+  border-radius: 100px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Login-US button:hover {
+  background-color: rgb(13, 198, 215);
+  color: rgb(12, 10, 10);
+}
+
+.menu-toggle {
+  display: none; 
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 100%; /* Position it below the parent menu item */
+  left: 0;
+  background-color: #444;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+  white-space: nowrap; /* Prevent line wrapping */
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #555;
+  color: #ff9900;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .Menu-bar {
+    flex-wrap: wrap;
+  }
+
+  .ComLogo {
+    flex: 1;
+    text-align: left;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .menu-toggle:hover {
+    color: #ff9900;
+  }
+
+  .Login-US {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .menu-link {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu-link ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu-link ul li {
+    margin: 10px 0;
+    text-align: left;
+  }
+  .menu-link.active {
+    display: flex; 
+  }
+  .dropdown-menu {
+    position: static; 
+    width: 100%; 
+    box-shadow: none;
+  }
+}
+
+.sh{
+   color: #ff9900;
+}
+.icon-logo{
+  display: flex;
+  margin: 20px;
+}
+
+
+.gmail {
+  display: flex;
+  align-items: center;
+}
+.gmail-icon {
+  margin-right: 8px;
+  font-size: 24px;
+  color: #ff9900;
+}
+.gmail a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.Contact {
+  display: flex;
+  align-items: center;
+  margin-left: 450px;
+}
+.cont-icon {
+  margin-right: 8px;
+  font-size: 24px;
+  color: #ff9900;
+}
+.Contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.complan {
+  display: flex;
+  align-items: center;
+  margin-left: 450px;
+}
+.comp-icon {
+  margin-right: 8px;
+  font-size: px;
+  color: #ff9900;
+}
+.complan a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+

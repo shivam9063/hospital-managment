@@ -3,14 +3,12 @@ body,html{
   padding: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #9df4f4; /* Replace with your desired color */
-  
-  
+  background: linear-gradient(to right, #2b5876, #4e9f70, #f2f2f2);
 }
 
 .Navbar{
   width: 100%;
-  height:45px ;
+  height:60px ;
   position: fixed;
   top: 0;
   left: 0;
@@ -18,7 +16,7 @@ body,html{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgb(125, 111, 111);
+  background: linear-gradient(to right, #43cea2, #185a9d);
   padding: 7px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
@@ -35,9 +33,9 @@ span{
   color: white;
   font-weight: 800;
 }
-button{
-  padding-top: 12px;
-  padding-bottom: 12px;
+.Men-But{
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-left: 30px;
   padding-right: 30px;
   background-color: rgb(134, 217, 218);
@@ -48,7 +46,7 @@ button{
   font-size: 18px;
   margin-right: 25px;
 }
-button:hover{
+.Men-But:hover{
   background-color: rgb(247, 48, 204);
   color: white;
   box-shadow: 0 4px 10px rgba(49, 194, 196, 1);
@@ -100,36 +98,92 @@ button:hover{
 
 }
 
+.BoxA{
+  display: flex;
+  margin-left: 70px;
+}
+
 .Boxa {
   height: 210px;
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
-  margin-top: 20px;
-  margin-left: 10px;
+  margin: 25px;
+  cursor: pointer;
 }
+.Boxa h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.Boxa img{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+}
+
+.Boxa:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
 .Boxb {
   height: 210px;
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
-  margin-top: 20px;
-  margin-left: 10px;
+  margin: 25px;
+  cursor: pointer;
+}
+.Boxb img{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+}
+.Boxb:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.Boxb h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
 }
 .Boxc {
   height: 210px;
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
+  margin: 25px;
+  cursor: pointer;
+}
+.Boxc:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.Boxc img{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+}
+.Boxc h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.BoxB{
+  display: flex;
+  margin-left: 70px;
 }
 
 .Boxd {
@@ -137,10 +191,25 @@ button:hover{
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
-  
+  margin: 25px;
+}
+.Boxd:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Boxd img{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+}
+.Boxd h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .Boxe {
@@ -148,20 +217,25 @@ button:hover{
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
-  
+  margin: 25px;
+  cursor: pointer;
 }
-.BoxA{
-  display: flex;
-  margin-left: 250px;
-  
+.Boxe:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
-.BoxB{
-  position: absolute;
-  top: 330px;
-  margin-left: 43px;
+.Boxe img{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+}
+.Boxe h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .Boxf {
@@ -169,20 +243,57 @@ button:hover{
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
-  
+  margin: 25px;
+  cursor: pointer;
 }
+.Boxf:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Boxf img{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+}
+.Boxf h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.BoxC{
+  display: flex;
+  margin-left: 70px;
+}
+
 .Boxg {
   height: 210px;
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
-  
+  margin: 25px;
+  cursor: pointer;
+}
+.Boxg:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.Boxg img{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+}
+.Boxg h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .Boxh {
@@ -190,51 +301,59 @@ button:hover{
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
-  
+  margin: 25px;
+  cursor: pointer;
 }
-.BoxC{
-  position: absolute;
-  top: 350px;
-  margin-left: 690px;
+.Boxh:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
-
+.Boxh img{
+  height: 80px;
+  width: 80px;
+  background-color: aliceblue;
+}
+.Boxh h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
 .Boxi {
   height: 210px;
   width: 210px;
   background-color: aliceblue;
   border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
+  border-radius: 20px;
   text-align: center;
-  margin: 12px;
-  
+  margin: 25px;
+  cursor: pointer;
 }
-
-.Boxj {
-  height: 210px;
-  width: 210px;
+.Boxi:hover{
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.Boxi img{
+  height: 80px;
+  width: 80px;
   background-color: aliceblue;
-  border: 4px solid rgb(56, 56, 61);
-  border-radius: 50%;
-  text-align: center;
-  margin: 12px;
-  
+}
+.Boxi h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
 }
 
-.BoxD{
-  position: absolute;
-  top: 350px;
-  display: flex;
-  margin-left: 240px;
-  margin-top: 580px;
-}
+
+
 
 .ButtonBox{
   display: grid;
   top: 30px;
-  margin-left: 900px;
+  margin-left: 500px;
 }
 
 .button-group {
@@ -243,8 +362,8 @@ button:hover{
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  margin: 30px;
-  margin-left: 1100px;
+  margin: 40px;
+  margin-left: 1000px;
   position: absolute;
   top: 220px;
 }
@@ -259,8 +378,8 @@ button:hover{
   text-decoration: none; 
   padding: 10px 20px;
   border-radius: 30px;
-  width: 250px; 
-  height: 45px;
+  width: 350px; 
+  height: 60px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 

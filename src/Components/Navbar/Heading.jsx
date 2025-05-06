@@ -4,8 +4,8 @@ import './Navbar.css';
 const Heading = () => {
   return (
     <div className="heading">
-      <h1>Try Smart Hospital demo</h1>
-      <p>Try handson demonstration of Smart Hospital with sample data</p>
+      <h1>Explore Smart Hospital Prototype</h1>
+      <p>Experience an interactive demonstration of the Smart Hospital system using sample data.</p>
     </div>
   );
 };
